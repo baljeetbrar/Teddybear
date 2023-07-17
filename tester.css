@@ -167,6 +167,9 @@ ul{
 }
 .main-submenu-wrapper{
     width: 1100px;
+    box-sizing:border-box;
+      transition:height 0.3s ease-in-out;
+      transition-delay: 0.1s;
     
 }
 .dropdown-wrapper .main-submenu-wrapper,.see-all-link{
@@ -180,6 +183,7 @@ ul{
 }
 .main-submenu-wrapper{
     left: -240px;
+    
 }
 .stuffed-animal-clothing{
     left: -435px ;
@@ -198,6 +202,13 @@ ul{
 }
 .dropdown:hover .main-submenu-wrapper,.see-all-link{
     display: block;
+    transition: all 0.3s ease-in-out;
+    a{
+        &::before{
+            visibility: visible;
+            transform: scale(1,1);
+        }
+    }
 }
 .see-all-link{
     top: 0px;
@@ -292,9 +303,94 @@ ul{
 .special-link{
     color: #0056a2;
 }
+
+.beargiftshop {
+   text-align: center;
+   margin-top: 35px;
+}
+.gift-flex-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+.gift-flex-list>li{
+    width: calc(100%/4.3);
+    border: 1px solid #0056a2; 
+}
+.gift-flex-list>li>img{
+    width: 100%;
+}
+.list-info{
+    padding: 20px 15px;
+    text-align: center;
+}
+.list-info h2,h5, a{
+    padding: 14px 0;
+}
+.gift-button{
+    background-color: white;
+    border: 1px solid #0056a2;
+    color: #0056a2;
+    padding: 15px;
+    border-radius: 5px;
+}
+        /* Multicolor Wrapper */
+.additional-info{
+    color: black;
+}
+.multicolor-font,.additional-info{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3px;
+    word-spacing: 7px;
+}
+
 /* Body Section End */
 
+/* Footer section start */
+.footer-ribbon {
+    background: #F8F8F8;
+    padding: 32px 16px;
+    text-align: center;
+}
+.footer-row {
+    background-color: #0b5a9f;
+    color: white;
+    padding: 14px 20px;
+    height: 110px;
+    text-align: left;
+}
+.footer-row>div{
+    float: left;
+    padding: 0px 30px
+}
+.footer-button{
+    color: #0056a2;
+    text-shadow: none;
+    background-color: #fff;
+    border-color: #0056a2;
+    max-width: 200px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.vertical-align{
+    vertical-align: middle;
+    margin-top: 5px;
+}
+.vertical-align>h3,p{
+    padding: 4px 0;
+}
+.button-block{
+    margin-top: 30px;
+}
+.footer-list{
 
+}
+/* Footer section End */
 
 /* Responsive Media Query */
 @media (min-width: 1340px){ 
