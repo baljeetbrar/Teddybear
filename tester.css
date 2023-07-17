@@ -1,3 +1,5 @@
+/* Common Css Reuseable */
+
 *{
     padding: 0;
     margin: 0;
@@ -21,26 +23,25 @@ body {
    align-content: space-evenly;
 
 }
-.top_banner{
-    width: 100%;
-    background-color: white;
-    padding: 28px 10px;
-}
-
 .container{
     width: 100%;
     margin-right: auto;
-    margin-left: auto;
-    
+    margin-left: auto; 
 }
-
 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-/* Top Banner Css Start */
 
+/* Common Css Reuseable End*/
+
+/* Top Banner Css Start */
+.top_banner{
+    width: 100%;
+    background-color: white;
+    padding: 28px 10px;
+}
 .top_banner_logo{
     float: left;
     margin-top: -10px;
@@ -57,6 +58,11 @@ ul{
 /* Top Banner Css End */
 
 /* Top Ribbon Css Start */
+.sticky-navbar{
+    position: sticky;
+    TOP: 0px;
+    background: white;
+}
 .banner_logo{
     width: 100px;
 }
@@ -141,16 +147,171 @@ ul{
     width: 100%;
 }
 /* Middle Ribbon List End */ 
+/* Navbar List Start */
+.navbar_list{
+    font-weight: 600;
+    color: #1d3557;
+    justify-content: space-evenly;
+    padding: 0px 120px;
+    cursor: pointer;
+}
+.navbar_list>li:hover{
+    color: #0056a2;
+    text-decoration: underline;
+}
+        /* Dropdown Menu */
+
+.dropdown-wrapper{
+    position: relative;
+    
+}
+.main-submenu-wrapper{
+    width: 1100px;
+    
+}
+.dropdown-wrapper .main-submenu-wrapper,.see-all-link{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    padding: 75px 10px;
+    transition: opacity 0.3s ease;
+    z-index: 100;
+}
+.main-submenu-wrapper{
+    left: -240px;
+}
+.stuffed-animal-clothing{
+    left: -435px ;
+}
+.characters{
+    left: -650px ;
+}
+.sale{
+    left: -755px 
+}
+.new_arrivals{
+    left: -820px ;
+}
+.kids_adults{
+    left: -938px ;
+}
+.dropdown:hover .main-submenu-wrapper,.see-all-link{
+    display: block;
+}
+.see-all-link{
+    top: 0px;
+    left: 18px;
+    padding: 6px 0px;
+    margin-top: 14px;
+    font-size: 1rem;
+}
+.vertical-menu li{
+    padding: 2px 10px;
+    color: #1d3557;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.vertical-menu > li:first-child {
+    color: gray;
+    pointer-events: none;
+    cursor: default;
+  }
+  .vertical-menu > li:nth-child(2) {
+    font-weight: bolder !important;
+    font-size: 0.89rem !important;
+  }
+
+.vertical-menu li:hover,.see-all-link:hover {
+    color: #840621;
+  }
+  /* Submenu columns */
+.navbar-submenu-col1,
+.navbar-submenu-col2,
+.navbar-submenu-col3,
+.navbar-submenu-col4,
+.navbar-submenu-col5,
+.navbar-submenu-col6 {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% / 7);
+}
+/* Navbar List End */
+
+
+/* Body Section start */
+.birthday-logo,.birthday-banner{
+    text-align: center;
+}
+
+.birthday-banner-text{
+    color: #00b2e3;
+    font-size: 2.5rem;
+    padding: 0 0 0.5rem 0;
+    font-weight: normal;
+}
+.text-info{
+    color: #000;
+    font-size: 1.5rem;
+    padding: 0.25rem 0;
+    text-align: center;
+}
+.special-note{
+    color: #000;
+    font-size: 0.93rem;
+    padding: 0.25rem 0;
+}
+.birthday-banner img,.birthday-banner{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+}
+.lightblue{
+    color: #00b2e3 ;
+}
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+ .orange {
+    background-color: #f99e23;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 0.75em 0;
+    border: none;
+    border-radius: 5px;
+    width: 245px;
+    margin: 5px;
+    text-align: center;
+}
+.orange a{
+    text-decoration: none;
+    color: #fff;
+}
+.special-link{
+    color: #0056a2;
+}
+/* Body Section End */
+
+
 
 /* Responsive Media Query */
 @media (min-width: 1340px){ 
     .container {
         max-width: 1240px;
     }
+    .navbar_list>li{
+        padding: 0px 3px 13px;
+    }
+
 }
 @media (min-width: 1200px)and (max-width: 1339px){ 
     .container {
         max-width: 1140px;
+    }
+    .navbar_list>li{
+        padding: 0px 3px 13px;
     }
 }
 @media (min-width: 992px)and (max-width: 1199px){ 
