@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: none repeat scroll 0 0 #fff;
+    color: #1d3557;
+    overflow-x: hidden;
+    font-family: SofiaPro,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-display: swap;
+}
+.flex-list{
+    display: flex;
+    justify-content: space-between;
+   flex-flow: nowrap;
+   align-content: space-evenly;
+
+}
+.top_banner{
+    width: 100%;
+    background-color: white;
+    padding: 28px 10px;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* Top Banner Css Start */
+
+.top_banner_logo{
+    float: left;
+    margin-top: -10px;
+}
+.top_banner_list{
+    float:right;
+    margin-top: -10px; 
+}
+.top_banner_logo>li, 
+.top_banner_list>li{
+    padding: 0px 20px;
+    
+}
+/* Top Banner Css End */
+
+/* Top Ribbon Css Start */
+.banner_logo{
+    width: 100px;
+}
+.banner_logo img{
+    width: 100%;
+}
+
+.top_banner_ribbon{
+    background-color: #f2b721;
+    padding: 8px 16px;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    min-height: 30px;
+    width: 100%;
+}
+/* Top Ribbon Css Start */
+
+/* Main Logo List Start */ 
+
+.main_logo_list{
+    padding: 20px 0px;
+}
+.search_form {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    left: 50px;
+}
+.header-search input[type=text] {
+    width: 100%;
+    padding: 1px 16px 1px 20px;
+    height: 32px;
+    width: 140%;
+    outline: none;
+    border: none;
+    color: #13446f;
+}
+.header-search input[type=text]::placeholder {
+    color: #0056a2;
+    opacity: 1;
+}
+.header-search button {
+    position: absolute;
+    left: -25px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 30px;
+    line-height: 1.875rem;
+    min-height: 0;
+    top: 6px;
+}
+.login_bar{
+    flex-grow: 0.2;
+}
+.bi-search::before {
+    content: "\f52a";
+    font-size: 1.2rem;
+    color: #0056a2;
+}
+.web_logo img{
+    width: 150px;
+}
+.search_bar,.login_bar{
+    margin-top: 25px;
+}
+.icon-party img{
+    width: 24px;
+    height: 17px;
+}
+/* Main Logo List Start */ 
+
+/* Middle Ribbon List Start */ 
+.Shipping_rates{
+    background-color: #6E951E;
+    padding: 4px 16px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    min-height: 30px;
+    width: 100%;
+}
+/* Middle Ribbon List End */ 
+
+/* Responsive Media Query */
+@media (min-width: 1340px){ 
+    .container {
+        max-width: 1240px;
+    }
+}
+@media (min-width: 1200px)and (max-width: 1339px){ 
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px)and (max-width: 1199px){ 
+    .container {
+        max-width: 960px;
+    }
+    
+}
+@media (min-width: 768px)and (max-width:991px){ 
+    .container {
+        max-width: 720px;
+    }
+    .ribbon_info{
+        font-size: 0.8rem;
+    }
+    .top_banner_list>li>p{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 576px)and (max-width:767px){ 
+    .container {
+        max-width: 540px;
+    }
+    .ribbon_info{
+        font-size: 0.8rem;
+    }
+    .top_banner_list>li>p{
+        font-size: 0.8rem;
+    }
+    .top_banner_logo>li, .top_banner_list>li {
+      
+        padding: 0px 7px;
+    }
+    .banner_logo{
+        width: 65px;
+    }
+}
+@media (max-width: 575px){ 
+    .container {
+        max-width: 540px;
+    }
+    .ribbon_info{
+        font-size: 0.6rem;
+    }
+    .top_banner_list>li>p{
+        font-size: 0.6rem;
+    }
+    .top_banner_logo>li, .top_banner_list>li {
+      
+        padding: 0px 10px;
+    }
+    .banner_logo{
+        width: 55px;
+    }
+}
+
+
