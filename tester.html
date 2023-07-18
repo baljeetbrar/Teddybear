@@ -610,9 +610,9 @@
     <div class="fifth-section questions">
         <div class="countcandles-container">
             <img alt="green section separator" class="green-hr" src="./images/green_hr.png">
-            <img alt="Count Your Candle Logo" src="./images/countcandleslogowithbg.png" style="width: 80%;">
+            <img alt="Count Your Candle Logo" class="candle-logo" src="./images/countcandleslogowithbg.png" style="width: 80%;">
             <br>
-            <div class="cyc_faq" style="text-align: left; padding: 0 20px; margin: auto;">
+            <div class="faqs" style="">
             <h3>
             Count Your Candles Frequently Asked Questions:
             </h3>
@@ -692,26 +692,25 @@
             <li class="subscribe">
                 <span><img src="./images/footer-logo.png" alt="footer-logo"></span>
                 <div class="content-asset">
-                    <p><strong>Add a Little More <img alt="Heart Illustration" src="./images/heart.jpg" title="Heart Illustration"> to Your Inbox!</strong></p>
+                    <p><strong>Add a Little More <img class="footer-heart" alt="Heart Illustration" src="./images/heart.jpg" title="Heart Illustration"> to Your Inbox!</strong></p>
                     <p>Don’t miss out on PAWsome sales, new arrivals and more.</p>
-                    <form novalidate="novalidate">
-                        <div class="container">
-                        <div class="row" style="padding-bottom:10px;">
-                        <div class="col-8">
-                        <input type="email" id="footLg-email" name="emailAddress" placeholder="Enter Your Email" aria-label="Enter Your Email" value="">
+                
+                    <form novalidate="novalidate" class="form-section">
+                        <div class="subscribe-form">
+                             <input type="email" id="footLg-email" name="emailAddress" placeholder="Enter Your Email" aria-label="Enter Your Email" value="">
                         </div>
-                        <div class="col-4">
                         <div class="button-wrap">
-                        <a href="javascript:void(0);" class="button" id="ft-email-signup">Sign Up Now</a>
+                             <a href="" class="button" id="ft-email-signup">Sign Up Now</a>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        <input type="checkbox" id="footLg-opt-in" name="footLg-opt-in">
+                    </form>
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="footLg-opt-in" name="footLg-opt-in" class="checkbox">
                         <label for="footLg-opt-in" class="ftlg-opt-in">Yes, please add me to the Build-A-Bear email list to find out about special promotions, events and more! <br><span style="font-size: .6rem;">By signing, I agree to the Build-A-Bear Global Privacy Policy. To find out how your personal information will be used please read our <a href="https://www.buildabear.com/privacy-policy.html" target="_blank">Global Privacy Policy</a>.</span> </label>
-                        <p class="lg-success-wrap result">Thank You! The Furry Fun Has Just Begun!</p>
-                        <p class="lg-error-wrap result">Something went wrong. Please try again later.</p>
-                        </form>
+                    </div>
+                    <div>
+                        <div class="share-buttons">
+
+                        </div>
                 </div>
             </li>
             <li class="help">
