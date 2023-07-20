@@ -7,10 +7,10 @@ const Main = () => {
     <div className="first-section">
         <div className="birthday-party">
             <div className="birthday-logo">
-                <img src="../../public/images/weheartbirthday.png" alt="we heart birthday"/>
+                <img src="images/weheartbirthday.png" alt="we heart birthday"/>
             </div>
             <div className="birthday-banner ">
-                <img src="../../public/images/main-photo.jpg" alt="Main-photo, Birthday party"/>
+                <img src="images/main-photo.jpg" alt="Main-photo, Birthday party"/>
                 <h2 className="birthday-banner-text">The age they are turning is how much our special Birthday Treat <br/>Bear costs during their birthday month!</h2>
             </div>
         </div>
@@ -20,8 +20,8 @@ const Main = () => {
             <p>Bring the birthday child in to count their candles any day during their birthday month, and the age they are <br/>turning is how much it costs to make their own Birthday Treat Bear!</p>
             <span className="special-note">NOTE: Birthday Treat Bear availability may vary by store. Call your local Workshop to confirm availability before visiting.</span>
             <div className="birthday-treat full-image">
-                <img src="../../public/images/birthday-treat.jpeg" alt="birthday treat"/>
-                <img src="../../public/images/bonusclubwithbg.png" alt="bonusclubwithbg"/>
+                <img src="images/birthday-treat.jpeg" alt="birthday treat"/>
+                <img src="images/bonusclubwithbg.png" alt="bonusclubwithbg"/>
             </div>
         </div>
     </div>
@@ -35,12 +35,12 @@ const Main = () => {
     </div>
     <div className="forth-section build-a-bear">
         <div className="giftshop ful-image">
-            <p className="beargiftshop"><img src="../../public/images//title-giftshop-vday.jpg" alt="title-giftshop-vday"/></p>
+            <p className="beargiftshop"><img src="images/title-giftshop-vday.jpg" alt="title-giftshop-vday"/></p>
         </div>
         <div className="gift-list">
             <ul className="gift-flex-list">
                 <li>
-                    <img src="../../public/images//gifts-shop1.png" alt="Gift One"/>
+                    <img src="images/gifts-shop1.png" alt="Gift One"/>
                     <div className="list-info">
                         <h2>Gifts With Heart For Everyone On Your List!</h2>
                         <h5>Your One-Stop Shop for Gifts with Heart!</h5>
@@ -48,7 +48,7 @@ const Main = () => {
                     </div>
                 </li>
                 <li>
-                    <img src="../../public/images//gifts-shop1.png" alt="Gift One"/>
+                    <img src="/images/gifts-shop1.png" alt="Gift One"/>
                     <div className="list-info">
                         <h2>Gift Cards</h2>
                         <h5>You’re giving more than a gift – you’re giving an experience!</h5>
@@ -56,7 +56,7 @@ const Main = () => {
                     </div>
                 </li>
                 <li>
-                    <img src="../../public/images//gifts-shop1.png" alt="Gift One"/>
+                    <img src="images/gifts-shop1.png" alt="Gift One"/>
                     <div className="list-info">
                         <h2>Record Your Voice</h2>
                         <h5>Give a gift that says it all! Record a message on a sound chip to personalize their furry friend.</h5>
@@ -64,7 +64,7 @@ const Main = () => {
                     </div>
                 </li>
                 <li>
-                    <img src="../../public/images//gifts-shop1.png" alt="Gift One"/>
+                    <img src="images/gifts-shop1.png" alt="Gift One"/>
                     <div className="list-info"> 
                         <h2>Build-A-Party In Stores</h2>
                         <h5>Each Guest makes and takes home a furry friend – the best party favor ever!</h5>
@@ -83,8 +83,8 @@ const Main = () => {
     </div>
     <div className="fifth-section questions">
         <div className="countcandles-container">
-            <img alt="green section separator" className="green-hr" src="../../public/images//green_hr.png"/>
-            <img alt="Count Your Candle Logo" className="candle-logo" src="../../public/images//countcandleslogowithbg.png" style={{"width": "80%;"}}/>
+            <img alt="green section separator" className="green-hr" src="images/green_hr.png"/>
+            <img alt="Count Your Candle Logo" className="candle-logo" src="images/countcandleslogowithbg.png" style={{"width": "80%;"}}/>
             <br/>
             <div className="faqs" >
             <h3>

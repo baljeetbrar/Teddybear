@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-ribbon">
         <div className="row footer-row container">
             <div className="col-lg-4">
-                <img src="../../public/images//rd-bc-stuffinside-rev.webp" alt="stuffinside"/>
+                <img src="images/rd-bc-stuffinside-rev.webp" alt="stuffinside"/>
             </div>
             <div className="col-lg-6 vertical-align">
                 <h3>LOG IN NOW TO GET THE INSIDE STUFF!</h3>
@@ -21,7 +21,7 @@ const Footer = () => {
     <div className="main-footer ">
         <ul className="footer-list flex-list container">
             <li className="subscribe">
-                <span><img src="../../public/images//footer-logo.png" alt="footer-logo"/></span>
+                <span><img src="images/footer-logo.png" alt="footer-logo"/></span>
                 <div className="content-asset">
                     <p><strong>Add a Little More <img className="footer-heart" alt="Heart Illustration" src="../../public/images//heart.jpg" title="Heart Illustration"/> to Your Inbox!</strong></p>
                     <p>Don’t miss out on PAWsome sales, new arrivals and more.</p>

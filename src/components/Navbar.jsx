@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className="web_logo">
-            <p><img src="../../public/images//workshop-logo-default.png" alt=""/></p>
+            <p><img src="images/workshop-logo-default.png" alt=""/></p>
         </div>
         <div className="login_bar ">
             <ul className="login_bar_list flex-list">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </li>
                 <li className="parties">
                     <p>
-                        <span><i className="icon-party"><img src="./images/party.png" alt=""/></i></span>
+                        <span><i className="icon-party"><img src="images/party.png" alt=""/></i></span>
                         <span>Parties</span>
                     </p>
                 </li>
