@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
                     <div className="checkbox-wrapper">
                         <input type="checkbox" id="footLg-opt-in" name="footLg-opt-in" className="checkbox"/>
-                        <label for="footLg-opt-in" className="ftlg-opt-in">Yes, please add me to the Build-A-Bear email list to find out about special promotions, events and more! <br/><span style="font-size: .6rem;">By signing, I agree to the Build-A-Bear Global Privacy Policy. To find out how your personal information will be used please read our <a href="https://www.buildabear.com/privacy-policy.html" target="_blank">Global Privacy Policy</a>.</span> </label>
+                        <label for="footLg-opt-in" className="ftlg-opt-in">Yes, please add me to the Build-A-Bear email list to find out about special promotions, events and more! <br/><span style={{"font-size" : ".6rem;"}}>By signing, I agree to the Build-A-Bear Global Privacy Policy. To find out how your personal information will be used please read our <a href="https://www.buildabear.com/privacy-policy.html" target="_blank">Global Privacy Policy</a>.</span> </label>
                     </div>
                     <div>
                         <div className="share-buttons">

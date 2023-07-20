@@ -6,8 +6,8 @@ const Header = () => {
       <section className="top_banner ">
         <section className="container"> 
             <ul className="top_banner_logo flex-list">
-                <li className="banner_logo"><span><img src="/images/header-logo-bab-sm.jpg" alt="" /></span></li>
-                <li className="banner_logo"><span><img src="/images/header-logo-bearcave-sm.jpg" alt="" /></span></li>
+                <li className="banner_logo"><span><img src="./images/header-logo-bab-sm.jpg" alt="" /></span></li>
+                <li className="banner_logo"><span><img src="./images/header-logo-bearcave-sm.jpg" alt="" /></span></li>
             </ul>
             <ul className="top_banner_list flex-list">
                 <li><p>Square One, Mississauga</p></li>

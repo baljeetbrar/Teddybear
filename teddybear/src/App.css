@@ -171,12 +171,13 @@ ul{
 .main-submenu-wrapper{
   width: 1100px;
   box-sizing:border-box;
-    transition:height 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
     transition-delay: 0.1s;
   
 }
-.dropdown-wrapper .main-submenu-wrapper,.see-all-link{
-  display: none;
+.dropdown-wrapper .main-submenu-wrapper{
+  /* display: none; */
+  opacity: 0;
   position: absolute;
   top: 100%;
   background-color: #fff;
@@ -203,17 +204,14 @@ ul{
 .kids_adults{
   left: -938px ;
 }
-.dropdown:hover .main-submenu-wrapper,.see-all-link{
-  display: block;
-  transition: all 0.3s ease-in-out;
-  a{
-      &::before{
-          visibility: visible;
-          transform: scale(1,1);
-      }
-  }
+.dropdown:hover .main-submenu-wrapper{
+  /* display: block; */
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  
 }
 .see-all-link{
+  display: block;
   top: 0px;
   left: 18px;
   padding: 6px 0px;
@@ -521,14 +519,14 @@ p.terms {
   position: absolute;
   top: calc((1em - 22px)/5);
   left: 0;
-  background: url(./images/checkbox.svg) no-repeat 50%;
+  /* background: url(./images/checkbox.svg) no-repeat 50%; */
   border-radius: 4px;
   width: 22px;
   height: 22px;
   
 }
 .flag-icon-ca{
-  background-image: url(./images/canada-flag.svg);
+  /* background-image: url(./images/canada-flag.svg); */
 }
 .share-buttons{
   padding: 30px 0;

@@ -77,16 +77,16 @@ const Main = () => {
                 <p>When your child celebrates their birthday at Build-A-Bear Workshop, they get the full Build-A-Bear experience! In addition to our Count Your Candles offer, every birthday celeBEARation includes the following – at no additional charge!</p>
             </div>
             <div className="multicolor-font">
-                <span style="color: #ee2f53;">Special Birthday Heart Ceremony</span><img src="./images/star.png" alt=""/><span style="color: #00b2e3;">Birthday Heart for Their Furry Friend</span><br/><span style="color: #0056a2;">Birthday Cake Photo Prop</span><img src="./images/paw.png" alt="paw"/><span style="color: #bed631;">Birthday Sticker</span><img src="./images/star.png" alt="an orange asteric"/><span style="color: #8465ac;">Birthday Party Hat</span><br/><span style="color: #f99e23;">Ringing the Birthday Bell and Announce Their Birthday to the Entire Workshop</span><img src="./images/triangle.png" alt="a red triangle"/>
+                <span style={{"color": "#ee2f53;"}}>Special Birthday Heart Ceremony</span><img src="./images/star.png" alt=""/><span style={{"color": "#00b2e3;"}}>Birthday Heart for Their Furry Friend</span><br/><span style={{"color": "#0056a2;"}}>Birthday Cake Photo Prop</span><img src="./images/paw.png" alt="paw"/><span style={{"color": "#bed631;"}}>Birthday Sticker</span><img src="./images/star.png" alt="an orange asteric"/><span style={{"color": "#8465ac;"}}>Birthday Party Hat</span><br/><span style={{"color": "#f99e23;"}}>Ringing the Birthday Bell and Announce Their Birthday to the Entire Workshop</span><img src="./images/triangle.png" alt="a red triangle"/>
             </div>
     </div>
     </div>
     <div className="fifth-section questions">
         <div className="countcandles-container">
             <img alt="green section separator" className="green-hr" src="./images/green_hr.png"/>
-            <img alt="Count Your Candle Logo" className="candle-logo" src="./images/countcandleslogowithbg.png" style="width: 80%;"/>
+            <img alt="Count Your Candle Logo" className="candle-logo" src="./images/countcandleslogowithbg.png" style={{"width": "80%;"}}/>
             <br/>
-            <div className="faqs" style="">
+            <div className="faqs" >
             <h3>
             Count Your Candles Frequently Asked Questions:
             </h3>
